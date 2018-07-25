@@ -4,7 +4,9 @@
 
 ### 安装与配置
 
-[MFC 开发环境的安装和配置](install-vs.md)
+{% page-ref page="install-vs.md" %}
 
-[写下第一个 MFC 应用程序](first-app.md)
+{% page-ref page="first-app.md" %}
+
+{% page-ref page="remove-default-buttons.md" %}
 
