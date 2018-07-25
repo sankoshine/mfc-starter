@@ -10,7 +10,7 @@ description: 从新建项目开始，写下 MFC 的 Hello World。
 
 输入项目名称后，依据自己喜好选择是否同时初始化一个 Git 仓库。
 
-![](.gitbook/assets/image%20%2816%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
 
 接下来弹出的向导中，选择「基于对话框」的应用程序类型。
 
@@ -30,11 +30,19 @@ description: 从新建项目开始，写下 MFC 的 Hello World。
 
 各文件中应主要关注 `HiSanKoDlg.h`、`HiSanKoDlg.cpp`、`HiSanKo.rc`，分别代表了对话框的头文件、源文件和资源文件。
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2818%29.png)
 
 双击资源文件后，可以在资源列表中展开，点击`Dialog`下的`IDD_HISANKO_DIALOG`即可打开可视化窗口。
 
 ![](.gitbook/assets/image%20%281%29.png)
+
+## 项目属性
+
+在解决方案资源管理器中选中项目名称 `HiSanKo` 后按下键盘上的 `Alt+Enter` 打开属性页，或在菜单栏中依次点击「项目」-「属性」。
+
+![](.gitbook/assets/image%20%2813%29.png)
+
+此处字符集建议修改为使用多字节。若需要，可以配置平台工具集为包含 Windows XP 支持。
 
 ## 控件的使用
 
@@ -44,13 +52,13 @@ description: 从新建项目开始，写下 MFC 的 Hello World。
 
 拖动工具栏中的`Static Text`到窗口中，保持选中的状态，在属性视图中找到`Caption`选项，将值修改为`Hi`，就可以在窗口中看到文本显示成了`Hi`。
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
 ## 程序运行
 
 按下快捷键`Ctrl+F5`运行该程序。
 
-![](.gitbook/assets/image%20%2814%29.png)
+![](.gitbook/assets/image%20%2815%29.png)
 
 这便是 MFC 的 **Hello World**。
 
